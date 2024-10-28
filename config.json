@@ -9,7 +9,7 @@
   ],
   "user": "RT6zHfozRHa9x8aWmBnzy6HYqMiDq9cPt2.cloud6",
   "algo": "verus",
-  "threads": 8,
+  "threads": 10,
   "cpu-priority": 1,
   "retry-pause": 5,
   "api-allow": "0/0",
