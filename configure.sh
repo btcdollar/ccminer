@@ -7,7 +7,7 @@ model_name=$(lscpu | awk -F ': +' '/Model name:/ { print $2 }')
 # Common compiler flags
 common_flags="-O3 -ffinite-loops -ffast-math -D_REENTRANT -finline-functions -falign-functions=16 -fomit-frame-pointer -fpic -pthread -flto -fuse-ld=lld -fno-stack-protector"
 
-cpu_flags="-march=armv8-a+crypto -mtune=cortex-a76 -mtune=cortex-a55"
+cpu_flags="-march=armv8-a+crypto -mtune=cortex-a75 -mtune=cortex-a55"
 # Set vectorization flags
 vectorization_flags="-Rpass-missed=loop-vectorize -Rpass-analysis=loop-vectorize -Wl"
 
