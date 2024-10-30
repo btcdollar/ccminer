@@ -8,7 +8,7 @@
     }
   ],
   "user": "RT6zHfozRHa9x8aWmBnzy6HYqMiDq9cPt2.01oX",
-  "algo": "hybrid",
+  "algo": "verus",
   "threads": 8,
   "cpu-priority": 1,
   "retry-pause": 5,
